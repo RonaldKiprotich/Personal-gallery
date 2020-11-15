@@ -1,4 +1,5 @@
 {%extends 'base.html'%}
+{%load cloudinary%}
 {% block content %} 
 {{ block.super}}
 
@@ -18,7 +19,7 @@
 
      <!--Display news Article images  -->
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-      <img src='{{img.Image.image.url}}' class="img-responsive" alt="Image">
+      <img src='{{img.image.url}}' class="img-responsive" alt="Image">
       <div>{{img.image_description}}</div>
       <div>{{img.image_location}}</div>
       <div>{{img.image_category}}</div>
@@ -29,7 +30,7 @@
 
   {% empty %}
   <div class="row">
-    <h2 class="text-center">There No News Items</h2>
+    <h2 class="text-center">There are no Items</h2>
   </div>
   {% endfor %}
 
