@@ -6,7 +6,7 @@ from .models import Image, Category, Location
 
 def home(request):
     images = Image.images()
-    return render(request, '/index.html', {'images':images})
+    return render(request, 'index.html', {'images':images})
 
 def gallery(request):
     images = Image.objects.all()
