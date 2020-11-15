@@ -6,7 +6,8 @@ from .models import Image, Category, Location
 
 def home(request):
     images = Image.images()
-    return render(request, 'index.html', {'images':images})
+    locations = Location.objects.all()
+    return render(request, 'index.html', {'images':images,'locations':locations})
 
 def gallery(request):
     images = Image.objects.all()
@@ -20,7 +21,7 @@ def search_category(request):
         searched_images = Image.search_by_image_category(search_term)
         message = f"{search_term}"
 
-        return render(request, 'category.html', {"message": message, "images": searched_images})
+        return render(request, 'search.html', {"message": message, "images": searched_images})
 
     else:
         message = "You haven't searched for any term"
@@ -28,3 +29,7 @@ def search_category(request):
 
 def about_me(request):
     return render(request, 'about.html')
+
+def getLocations(request,location):
+    locations = Image.filterimageByLocation(location)
+    return render(request,'dLocations.html',{'images':locations})
