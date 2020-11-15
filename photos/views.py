@@ -5,8 +5,8 @@ from .models import Image, Category, Location
 # Create your views here.
 
 def home(request):
-    images = Image.objects.all()
-    return render(request, 'index.html', {'images':images})
+    images = Image.images()
+    return render(request, '/index.html', {'images':images})
 
 def gallery(request):
     images = Image.objects.all()
