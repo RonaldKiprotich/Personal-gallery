@@ -1,6 +1,6 @@
-# Galleria
+# Personal Gallery
 
-##A self custom gallery application that hoists a gallery
+A self custom gallery application that hoists a gallery
 ## By [Ronald.Kiprotich](https://github.com/)
 
 
@@ -60,6 +60,6 @@ No known bugs.
 - MDB
 - PostgreSQL
 
-### License
-
-**[MIT](./LICENSE)** (c) 2020 **[RonaldKiprotich](https://ronald.kiprotich.github.io/Portfolio-LP/)**
+## License
+* [[License: MIT]](LICENSE.md)
+* Copyright (c) 2020 **Ronald Kiprotich**
