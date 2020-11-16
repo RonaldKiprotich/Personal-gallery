@@ -54,6 +54,9 @@ In case You have any issues using this code please do no hesitate to get in touc
 ## Known Bugs
 No known bugs.
 
+#Figma Design Link
+https://www.figma.com/file/nhEJlyO6AaVz41158HycFi/Gallery?node-id=1%3A2
+
 ## Technologies Used
 - Python3.8
 - Django framework
