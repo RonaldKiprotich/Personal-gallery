@@ -5,7 +5,7 @@ A self custom gallery application that hoists a gallery
 
 
 ## Description
-[This](https://.herokuapp.com/) is a web application that hoists a photographers gallery.Users can also be able to click on an image,
+[This](https://rays-gallery.herokuapp.com/) is a web application that hoists a photographers gallery.Users can also be able to click on an image,
 view the image descriptio, name, location and also copy the link for the image.
 ## User Stories
 * As a user I would like to view the different images.
@@ -18,7 +18,7 @@ view the image descriptio, name, location and also copy the link for the image.
 | --------------- | :----------:| --------: |
 |Display Various Images  | N/A | Various images  |
 |Display an image  | **Click** on a Search| A page with a list of images searched |
-|View Images | **Click** on a Gallery | View an image and view details |
+|View Images | **Click** on view images button | View an image and view details |
 
 ## Prerequisites
 * Python3.8
@@ -54,7 +54,7 @@ In case You have any issues using this code please do no hesitate to get in touc
 ## Known Bugs
 No known bugs.
 
-#Figma Design Link
+# Figma Design Link
 https://www.figma.com/file/nhEJlyO6AaVz41158HycFi/Gallery?node-id=1%3A2
 
 ## Technologies Used
