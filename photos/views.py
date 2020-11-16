@@ -32,4 +32,4 @@ def about_me(request):
 
 def getLocations(request,location):
     locations = Image.filterimageByLocation(location)
-    return render(request,'dLocations.html',{'images':locations})
+    return render(request,'locations.html',{'images':locations})
