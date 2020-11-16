@@ -3,19 +3,20 @@
 {% block content %}
 <style>
 body{
-  background-image: url("https://cdn.pixabay.com/photo/2020/03/27/08/56/lake-4972944__340.jpg");
+  background-image: url("/media/images/back2.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         z-index: -1;
+        color:beige
 }
 </style>
 {{block.super}}
 
-<div class="container-fluid text-center landing text-primary">
-<h1 class="mb-4 d-none d-md-block text-center text-primary">
+<div class="container-fluid text-center landing text-secondary">
+<h1 class="mb-4 d-none d-md-block text-center">
   <strong>Welcome To My Gallery.</strong>
 </h1>
-<p>Search for photos from these categories; <strong>Nature, Technology, Sports, People and wildlife.</strong> </p>
+<p>Search for photos from these categories; <strong>Nature,People and Animals.</strong> </p>
 <div>
 <a target="_blank" href="{% url 'gallery'%}" class="btn btn-primary">View Gallery</a>
 </div>
